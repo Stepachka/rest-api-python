@@ -22,3 +22,12 @@
 ```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
+
+### 2. Docker 
+```bash
+docker build -t glossary-app .
+```
+```bash
+docker run -p 8000:8000 glossary-app
+```
